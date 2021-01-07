@@ -1,0 +1,20 @@
+﻿<Window x:Class="inventory.Read.BarangMasuk"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:inventory.Read"
+        mc:Ignorable="d"
+        Title="BarangMasuk" Height="450" Width="353">
+    <Grid Margin="0,0,1,0">
+        <Label Content="Nama Barang    :" HorizontalAlignment="Left" Margin="38,111,0,0" VerticalAlignment="Top" Height="31" Width="110"/>
+        <Label Content="Tanggal Masuk :" HorizontalAlignment="Left" Margin="39,149,0,0" VerticalAlignment="Top" Height="31" Width="110"/>
+        <Label Content="Jumlah             :" HorizontalAlignment="Left" Margin="40,185,0,0" VerticalAlignment="Top" Height="31" Width="110"/>
+        <Label Content="Kode Keluar      :" HorizontalAlignment="Left" Margin="41,70,0,0" VerticalAlignment="Top" Height="31" Width="110"/>
+        <TextBox x:Name="Nama" HorizontalAlignment="Left" Margin="155,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="28" TextChanged="Nama_TextChanged"/>
+        <TextBox x:Name="Tanggal" HorizontalAlignment="Left" Margin="157,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="28" TextChanged="Tanggal_TextChanged"/>
+        <TextBox x:Name="Jumlah" HorizontalAlignment="Left" Margin="157,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="28" TextChanged="Jumlah_TextChanged"/>
+        <TextBox x:Name="Keluar" HorizontalAlignment="Left" Margin="154,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140" Height="28" TextChanged="Keluar_TextChanged"/>
+
+    </Grid>
+</Window>

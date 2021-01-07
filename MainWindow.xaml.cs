@@ -15,6 +15,9 @@ using System.Windows.Shapes;
 using System.Data.SqlClient;
 using LanguageExt.ClassInstances.Pred;
 using Microsoft.Azure.Amqp.Framing;
+using inventory.Read;
+using inventory.Delete;
+using inventory.Update;
 
 namespace inventory
 {
@@ -22,7 +25,7 @@ namespace inventory
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {      
+    {
         public MainWindow()
         {
             InitializeComponent();
@@ -30,37 +33,26 @@ namespace inventory
 
         private void OnClickBarang(object sender, RoutedEventArgs e)
         {
-            Window1 barangWindow = new Window1();
+            HalananUtama barangWindow = new HalananUtama();
             barangWindow.Show();
         }
-        private void OnClickMasuk(object sender, RoutedEventArgs e)
+
+        private void OnClickLihat(object sender, RoutedEventArgs e)
         {
-            BarangMasuk barangmasuk = new BarangMasuk();
-            barangmasuk.Show();
+            HalamanData dataWindow = new HalamanData();
+            dataWindow.Show();
         }
 
-        private void OnClickKeluar(object sender, RoutedEventArgs e)
+        private void OnClickHapus(object sender, RoutedEventArgs e)
         {
-            BarangKeluar barangkeluar = new BarangKeluar();
-            barangkeluar.Show();
+            Hapus hapusWindow = new Hapus();
+            hapusWindow.Show();
         }
 
-        private void OnClickSup(object sender, RoutedEventArgs e)
+        private void OnClickUpdate(object sender, RoutedEventArgs e)
         {
-            Supplier supplier = new Supplier();
-            supplier.Show();
+            HalamanUtama halamanWindow = new HalamanUtama();
+            halamanWindow.Show();
         }
-
-        private void OnClickAdmin(object sender, RoutedEventArgs e)
-        {
-            Admin admin = new Admin();
-            admin.Show();
-        }
-
-        private void OnClickKaryawan(object sender, RoutedEventArgs e)
-        {
-            Karyawan karyawn = new Karyawan();
-            karyawn.Show();
-        }
-    }
+    }   
 }

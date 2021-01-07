@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 E:\Kampus\Program\inventory\App.xaml
-71985606361
+29-1020290096
 
-9-642901140
+31543518469
 1951471551941
-Admin.xaml;Barang.xaml;BarangKeluar.xaml;BarangMasuk.xaml;Karyawan.xaml;MainWindow.xaml;Supplier.xaml;
+Crate\Admin.xaml;Crate\Barang.xaml;Crate\BarangKeluar.xaml;Crate\BarangMasuk.xaml;Crate\HalananUtama.xaml;Crate\Karyawan.xaml;Crate\Supplier.xaml;Delete\Admin.xaml;Delete\Barang.xaml;Delete\BarangKeluar.xaml;Delete\BarangMasuk.xaml;Delete\Hapus.xaml;Delete\Karyawan.xaml;Delete\Supplier.xaml;MainWindow.xaml;Read\Admin.xaml;Read\Barang.xaml;Read\BarangKeluar.xaml;Read\BarangMasuk.xaml;Read\HalamanData.xaml;Read\Karywan.xaml;Read\Suppllier.xaml;Update\Admin.xaml;Update\Barang.xaml;Update\BarangKeluar.xaml;Update\BarangMasuk.xaml;Update\HalamanUtama.xaml;Update\Karyawan.xaml;Update\Supplier.xaml;
 
 False
 

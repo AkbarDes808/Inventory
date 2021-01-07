@@ -7,45 +7,177 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Admin.xaml.cs">
+    <Compile Update="Crate\Admin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Barang.xaml.cs">
+    <Compile Update="Crate\Barang.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="BarangKeluar.xaml.cs">
+    <Compile Update="Crate\BarangKeluar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="BarangMasuk.xaml.cs">
+    <Compile Update="Crate\BarangMasuk.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Karyawan.xaml.cs">
+    <Compile Update="Crate\Karyawan.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Supplier.xaml.cs">
+    <Compile Update="Crate\Supplier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Crate\HalamanUtama.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Delete\Admin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Delete\Barang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Delete\BarangKeluar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Delete\BarangMasuk.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Delete\Hapus.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Delete\Karyawan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Delete\Supplier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Read\Admin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Read\Barang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Read\BarangKeluar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Read\BarangMasuk.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Read\HalamanData.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Read\Karywan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Read\Suppllier.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Update\Admin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Update\Barang.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Update\BarangKeluar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Update\BarangMasuk.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Update\HalamanUtama.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Update\Karyawan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Update\Supplier.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Admin.xaml">
+    <Page Update="Crate\Admin.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="BarangKeluar.xaml">
+    <Page Update="Crate\BarangKeluar.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="BarangMasuk.xaml">
+    <Page Update="Crate\BarangMasuk.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Karyawan.xaml">
+    <Page Update="Crate\Karyawan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Crate\HalananUtama.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Delete\Admin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Delete\Barang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Delete\BarangKeluar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Delete\BarangMasuk.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Delete\Hapus.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Delete\Karyawan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Delete\Supplier.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Barang.xaml">
+    <Page Update="Crate\Barang.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Supplier.xaml">
+    <Page Update="Crate\Supplier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Read\Admin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Read\Barang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Read\BarangKeluar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Read\BarangMasuk.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Read\HalamanData.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Read\Karywan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Read\Suppllier.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Update\Admin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Update\Barang.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Update\BarangKeluar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Update\BarangMasuk.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Update\HalamanUtama.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Update\Karyawan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Update\Supplier.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
